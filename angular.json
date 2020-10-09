@@ -117,8 +117,16 @@
               "devServerTarget": "ingresosEgresos:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "ingresosEgresos"
+    }
+  },
+  "defaultProject": "ingresosEgresos",
+  "cli": {
+    "analytics": false
+  }
 }

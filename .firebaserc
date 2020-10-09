@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "redux-angular-f551b": {
+      "hosting": {
+        "ingresosEgresos": [
+          "redux-angular-f551b"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "redux-angular-f551b"
+  }
+}
